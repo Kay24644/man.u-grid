@@ -1,0 +1,62 @@
+body{
+    background-color: dimgrey;
+    margin: 0;
+    
+}
+.team{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.background{
+    border: 1px solid white;
+    width: 1550px;
+    height: 1000px;
+    background-color: white;
+    display: grid;
+    grid-template-columns:2fr 2fr 2fr;
+    overflow: hidden;
+    /* grid-auto-flow: column;  */
+    /* grid-template-columns: repeat(4,1fr); */
+    /* grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); */
+    /* gap: 16px;  */
+    
+    
+}
+.grid-item{
+    padding: 1.9rem;
+    margin: 10px;
+    margin-right: 20px;
+    height: 100px;
+    display: flex;
+    
+    
+    
+}
+.item-1{
+    
+    /* background-color:white; */
+}
+.item-2{
+    /* background-color:white; */
+
+}
+.item-3{
+    /* background-color: white; */
+    
+}
+.item-4{
+    /* background-color: white; */
+}
+
+
+
+img{
+    width: 50%;
+    height: 150px;
+    border-radius: 20px;
+    
+    
+}
